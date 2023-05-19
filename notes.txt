@@ -1,0 +1,23 @@
+In html use
+   !DOCTYPE html
+   meta name=viewport
+   content="width=device-width,initial-scale=1"
+In css use
+    @media (screen-width){
+        selector{
+            properties:value;
+        }
+    }
+   
+
+we have different screen sizes based on user device
+having both min and max width based on device
+For example:we want to use laptop size
+max-width:992px atleast
+min-width:768px atmost
+some sizes
+  extra small 468px-576px
+  small 576px-768px
+  medium 768px-992px
+  large 992px-1200px,1366px
+  extralarge 1366px and above
